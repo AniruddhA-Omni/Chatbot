@@ -8,8 +8,8 @@ Clone repo and create a virtual environment
 ```
 $ git clone https://github.com/AniruddhA-Omni/Chatbot.git
 $ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
+$ conda create --name venv
+$ activate venv
 ```
 Install dependencies
 ```
@@ -31,4 +31,8 @@ This will dump data.pth file. And then run
 the following command to test it in the console.
 ```
 $ (venv) python chat.py
+```
+## For Flask app
+```
+$ (venv) python app.py
 ```
